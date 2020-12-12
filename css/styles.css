@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --primary-bcg-color: #2f303a;
   --sec-bcg-color: #f5f4fa;
+  --black-color: #000000
 }
 
 body {
@@ -22,22 +23,17 @@ ul {
 }
 
 .nav-logo {
-  color: #000000;
+  color: var(--black-color);
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 .logo-item {
   color: var(--accent-color);
-
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
 }
 
 .nav-list {
@@ -189,6 +185,11 @@ address {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+
+.footer .contacts-link:hover,
+.footer .contacts-link:focus {
+  color: var(--accent-color);
 }
 
 .filter button {
