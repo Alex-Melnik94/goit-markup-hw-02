@@ -12,6 +12,7 @@
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 ul {
@@ -41,7 +42,6 @@ ul {
 .nav-list,
 .contacts-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -105,7 +105,6 @@ ul {
   color: var(--title-text-color);
 
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.43;
   text-transform: uppercase;
 }
@@ -114,7 +113,6 @@ ul {
   color: var(--primary-text-color);
 
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -164,7 +162,6 @@ address {
 
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -172,7 +169,6 @@ address {
   color: var(--rgba-opacity-color);
 
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
 }
@@ -201,7 +197,7 @@ address {
   background-color: var(--white-color);
 }
 
-.works-list h2 {
+.works-list .title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -210,7 +206,7 @@ address {
   letter-spacing: 0.06em;
 }
 
-.works-list p {
+.works-list .text {
   color: var(--primary-text-color);
 
   font-weight: 400;
@@ -218,6 +214,6 @@ address {
   line-height: 1.9;
 }
 
-.works-list .link {
+.works-list a {
   text-decoration: none;
 }
