@@ -5,7 +5,8 @@
   --accent-color: #2196f3;
   --primary-bcg-color: #2f303a;
   --sec-bcg-color: #f5f4fa;
-  --black-color: #000000
+  --black-color: #000000;
+  --rgba-opacity-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -22,7 +23,8 @@ ul {
   background-color: var(--white-color);
 }
 
-.nav-logo {
+.logo,
+.logo-item {
   color: var(--black-color);
 
   font-family: Raleway, sans-serif;
@@ -36,12 +38,14 @@ ul {
   color: var(--accent-color);
 }
 
-.nav-list {
+.nav-list,
+.contacts-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .nav-list .link {
   color: var(--title-text-color);
   text-decoration: none;
@@ -56,12 +60,6 @@ ul {
   color: var(--accent-color);
 }
 
-.contacts-list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 
 .contacts-list .link {
   color: var(--primary-text-color);
@@ -150,6 +148,7 @@ ul {
   font-size: 16px;
   line-height: 1.2;
 }
+
 /* Футер */
 .footer {
   background-color: var(--primary-bcg-color);
@@ -157,17 +156,8 @@ ul {
 
 .footer .logo {
   color: var(--white-color);
-
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
 }
 
-.footer .logo-item {
-  color: var(--accent-color);
-}
 
 address {
   color: var(--white-color);
@@ -179,7 +169,7 @@ address {
 }
 
 .footer .contacts-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba-opacity-color);
 
   font-weight: 400;
   font-size: 14px;
